@@ -39,7 +39,7 @@
         <button id="blue" type="button" class="btn btn-info" set-lan="html:blue">蓝色</button>
         <button id="brown" type="button" class="btn btn-success" set-lan="html:green">绿色</button>
       </div>
-      <select class="form-control" onchange="func()" id="lanselect">
+      <select class="form-control" style = "width:80%;" onchange="func()" id="lanselect">
         <option style='display: none' set-lan="html:plsselect">请选择</option>
         <option set-lan="html:english">English</option>
         <option set-lan="html:chinese">Chinese</option>
@@ -285,21 +285,19 @@
     }
     }
   $(document).ready(function () {
-    var browser = navigator.userAgent.toLowerCase();
-    var phone = /iphone|ipod|ipad|android|mobile|blackberry|webos|incognito|webmate|bada|nokia|lg|ucweb|skyfire|micromessenger/i
-    if (phone.test(browser)) {
-      $('#lanselect').style.display ="width: 30 %";
-    }
+    // var browser = navigator.userAgent.toLowerCase();
+    // var phone = /iphone|ipod|ipad|android|mobile|blackberry|webos|incognito|webmate|bada|nokia|lg|ucweb|skyfire|micromessenger/i
+    // if (phone.test(browser)) {
+    //   $('#lanselect').style.width ="30%";
+    //   document.getElementById("lanselect").style.width = "30%";
+    // }
   })
-
-  $(document).ready(function () {
-              //ht.setCookie('lan','CN');    简体中文
-              //ht.setCookie('lan','EN');    //英文
-          })
           //或者下面这个方法，jQuer的默认参数是：“document”；
   $().ready(function () {
-            //do something
-             //ht.setCookie('lan', 'EN'); //英文
+            var browser = navigator.userAgent.toLowerCase();
+    var phone = /iphone|ipod|ipad|android|mobile|blackberry|webos|incognito|webmate|bada|nokia|lg|ucweb|skyfire|micromessenger/i
+    if (phone.test(browser)) {
+      document.getElementById("lanselect").style.width = "30%";}
           })
 
 </script>
