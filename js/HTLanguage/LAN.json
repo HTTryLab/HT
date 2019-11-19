@@ -1,0 +1,34 @@
+{
+    "Default": [{
+        "resume":"个人简历-黄桃",
+        "english": "英语",
+        "chinese": "中文",
+        "user": "黄",
+        "name": " 桃",
+        "tel": "电话",
+        "email": "邮箱",
+        "about": "关于",
+        "experience": "经验",
+        "education": "教育",
+        "skills": "技能专长",
+        "interests": "兴趣爱好",
+        "awards": "获奖情况",
+        "plsselect": "请选择"
+    }],
+    "EN": [{
+        "resume":"Resume-huang tao",
+        "english": "English",
+        "chinese": "Chinese",
+        "user": "Huang",
+        "name": "Tao",
+        "tel": "Tel",
+        "email": "Email",
+        "about": "About",
+        "experience": "Experience",
+        "education": "Education",
+        "skills": "Skills",
+        "interests": "Interests",
+        "awards": "Awards",
+        "plsselect": "Pls Select"
+    }]
+}
