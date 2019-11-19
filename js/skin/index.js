@@ -8,13 +8,13 @@ $(function(){
     if(svalue){  
         oBg.attr('href', "js/skin/css/skin_" + svalue + ".css");
     }  
-    $("blue").click(function () {
+    $("blue#default").click(function () {
         skin_value = $(this).attr("id"); //red  
         localStorage.setItem(skin,skin_value);       //存到数据库  
         oBg.attr('href', "js/skin/css/skin_" + skin_value + ".css");
     });  
   
-    $("#default").click(function () {
+    $("#blue").click(function(){  
         skin_value = $(this).attr("id"); //blue  
         localStorage.setItem(skin,skin_value);       //存到数据库  
         oBg.attr('href', "js/skin/css/skin_" + skin_value + ".css");
