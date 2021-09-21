@@ -151,9 +151,9 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0" set-lan="html:university">GUANGZHOU OPEN UNIVERSITY</h3>
+              <h3 class="mb-0" set-lan="html:university">XXXXXXXX UNIVERSITY</h3>
               <div class="subheading mb-3" set-lan="html:educationB">大专学历</div>
-              <div set-lan="html:profession">企业管理 - 工商管理专业</div>
+              <div set-lan="html:profession">XXXXXX专业</div>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">2008.9 - 2010.7</span>
@@ -213,13 +213,16 @@
               Autocad .net二次开发</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              熟练掌握javascript</li>
+              掌握javascript</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              掌握Vue开发前后端分离项目</li>
             <li>
               <i class="fa-li fa fa-check"></i>
               Win ce手持终端应用开发</li>
-              <li>
-                <i class="fa-li fa fa-check"></i>
-                SQL Server存储过程编写&优化</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              SQL Server存储过程编写&优化</li>
           </ul>
         </div>
       </section>
@@ -264,6 +267,8 @@
   function func() {
       //获取被选中的option标签
       var lan = $('#lanselect').val();
+//if(lan)
+console.log(lan);
       switch (lan) {
       case 'English':
         ht.setCookie('lan', 'EN'); //英语
