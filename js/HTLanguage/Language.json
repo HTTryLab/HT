@@ -27,7 +27,7 @@
         "workflow": "技能&专长",
         "interestsTxtA": "逛技术论坛，很多论坛有学习视频或者新的插件，喜欢去研究，然后用到工作中，提升自己的技能水平",
         "interestsTxtB": "看电视剧，游戏，聊天，朋友聚餐等。",
-        "experienceA": ".NET软件开发工程师"
+        "experienceA": "近年开发清单"
     }],
     "EN": [{
         "resume":"Resume-huang tao",
@@ -57,6 +57,6 @@
         "workflow": "Workflow",
         "interestsTxtA": "Visiting the technical forum, many forums have learning videos or new plug-ins, like to study, and then use the work to improve their skill level.",
         "interestsTxtB": "Watch TV shows, games, chats, parties, etc.",
-        "experienceA": ".NET SOFTWARE DEVELOPER ENGINEER"
+        "experienceA": "List"
     }]
 }
